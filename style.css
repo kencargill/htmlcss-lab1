@@ -12,6 +12,10 @@ nav {
     flex-direction: column;
     margin-left: 20px;
 }
+nav .nlinks {
+    display: flex;
+    flex-direction: column;
+}
 a {
     text-decoration: none;
 }
@@ -83,30 +87,29 @@ footer div {
     .main {
         margin-top: 10%;
         width: 50%;
-        z-index: ;
     }
     #c1 {
         float: right;
         background-color: rgba(207, 130, 213, 0.6);
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         z-index: 2;
         position: relative;
         opacity: 80%;
         right: 3vh;
-        bottom: 13vh;
+        bottom: 17vh;
     }
     #c2 {
         float: right;
         background-color: rgba(247, 193, 162, 0.7);
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
         z-index: 3;
         position: relative;
         opacity: 80%;
-        left: 10vh;
+        left: 13vh;
         bottom: 5vh;
     }
     #c3 {
@@ -119,6 +122,6 @@ footer div {
         position: relative;
         bottom: 20vh;
         opacity: 80%;
-        left: 20vh;
+        left: 25vh;
     }
 }
