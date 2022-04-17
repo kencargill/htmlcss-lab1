@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 100%;
+    background: #f9fafc;
+    margin: auto;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+}
+.link {
+    color: #000;
+}
+nav a {
+    margin: 5px;
+}
+div a {
+    margin: 10px;
+}
+h4 {
+    align-self: center;
+    margin: 5px;
+}
+h1 {
+    margin: 20px;
+}
+p {
+    margin: 20px;
+    border-left: 3px solid #69696a;
+    padding: 10px;
+}
+.hire {
+    width: 90%;
+    background-color: #000;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+footer {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgba(247, 193, 162, 0.7)
+}
+footer div {
+    display: flex;
+}
+@media only screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    
+    }
+    nav a {
+        align-self: center;
+        white-space: nowrap; 
+    }
+    nav .nlinks {
+        display: flex;
+        flex-direction: row; 
+    }
+    nav .us {
+        align-self: center;
+        margin: 5px;
+        margin-right: 30px;
+    }
+    .main {
+        margin-top: 10%;
+        width: 50%;
+        z-index: ;
+    }
+    #c1 {
+        float: right;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        z-index: 2;
+        position: relative;
+        opacity: 80%;
+        right: 3vh;
+        bottom: 13vh;
+    }
+    #c2 {
+        float: right;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        z-index: 3;
+        position: relative;
+        opacity: 80%;
+        left: 10vh;
+        bottom: 5vh;
+    }
+    #c3 {
+        float: right;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;;
+        z-index: 1;
+        position: relative;
+        bottom: 20vh;
+        opacity: 80%;
+        left: 20vh;
+    }
+}
