@@ -98,7 +98,7 @@ footer div {
         position: relative;
         opacity: 80%;
         right: 3vh;
-        bottom: 17vh;
+        bottom: 15vh;
     }
     #c2 {
         float: right;
@@ -109,8 +109,8 @@ footer div {
         z-index: 3;
         position: relative;
         opacity: 80%;
-        left: 13vh;
-        bottom: 5vh;
+        left: 10vh;
+        bottom: 7vh;
     }
     #c3 {
         float: right;
@@ -122,6 +122,6 @@ footer div {
         position: relative;
         bottom: 20vh;
         opacity: 80%;
-        left: 25vh;
+        left: 20vh;
     }
 }
